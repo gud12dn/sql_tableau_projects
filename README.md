@@ -17,25 +17,44 @@ The objective of this project is to analyze customer behavior and extract action
 
 # Dataset Columns and Descriptions
 
-- Unnamed: 0: A column representing the row number of the dataset.
-- CustomerID: A unique identifier for each customer.
-- Gender: The gender of the customer, represented as "M" (Male) or "F" (Female).
-- Location: The customer's location (e.g., Chicago, New York, etc.).
-- Tenure_Months: The duration (in months) the customer has been using the platform.
-- Transaction_ID: A unique identifier for each transaction.
-- Transaction_Date: The date the transaction occurred.
-- Product_SKU: The unique SKU (Stock Keeping Unit) code of the product.
-- Product_Description: Detailed description of the product, including its name and features.
-- Product_Category: The category to which the product belongs (e.g., Nest-USA).
-- Quantity: The quantity of the purchased items.
-- Avg_Price: The average price of the product.
-- Delivery_Charges: The delivery charges for the transaction.
-- Coupon_Status: The status of the coupon usage, represented as "Used," "Not Used," or "Clicked."
-- GST: The Goods and Services Tax rate applied to the transaction.
-- Date: A column recording the date.
-- Offline_Spend: The amount spent in offline stores.
-- Online_Spend: The amount spent on online platforms.
-- Month: The month in which the transaction occurred.
-- Coupon_Code: The coupon code used during the transaction.
-- Discount_pct: The percentage of the discount applied.
+Dataset Columns and Descriptions
+Customer ID: A unique identifier for each customer.
+
+Age: Age of the customer.
+
+Gender: Gender of the customer, represented as 0 (Female) or 1 (Male).
+
+Item Purchased: Name of the purchased item.
+
+Category: Product category (e.g., Clothing, Footwear, etc.).
+
+Purchase Amount (USD): Amount spent on the purchase in USD.
+
+Location: Customer's location (state).
+
+Size: Size of the product (S, M, L, etc.).
+
+Color: Color of the product.
+
+Season: Season in which the purchase was made (Spring, Summer, Fall, Winter).
+
+Review Rating: Customer's review rating for the product (numeric value).
+
+Subscription Status: Whether the customer is subscribed (1) or not (0).
+
+Payment Method: Payment method used for the transaction (e.g., Credit Card, Cash, PayPal).
+
+Shipping Type: Type of shipping selected (e.g., Express, Free Shipping, Next Day Air).
+
+Discount Applied: Whether a discount was applied (1) or not (0).
+
+Promo Code Used: Whether a promo code was used (1) or not (0).
+
+Previous Purchases: Number of previous purchases made by the customer.
+
+Preferred Payment Method: The customer's preferred payment method.
+
+Frequency of Purchases: Frequency of the customer's purchases (numeric value).
+
+This dataset contains detailed information on customer purchases, including demographic attributes, product details, payment and shipping preferences, and loyalty indicators. It is suitable for performing customer segmentation, sales trend analysis, and targeted marketing insights.
 
